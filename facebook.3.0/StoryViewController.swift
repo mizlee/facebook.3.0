@@ -18,11 +18,24 @@ class StoryViewController: UIViewController {
     
     @IBOutlet weak var SampleLikeButton: UIButton!
     
+    @IBOutlet weak var commentButton: UIButton!
+    
+    @IBOutlet weak var commentView: UIView!
+    
+    @IBOutlet weak var commentTextField: UITextField!
+    
     @IBAction func onSampleLikeTap(sender: AnyObject) {
 
         SampleLikeButton.selected = !SampleLikeButton.selected
 
-    }
+        func keyboardWillShow(notification: NSNotification!) {
+            
+        }
+        
+        func keyboardWillHide(notification: NSNotification!) {
+            
+        }
+}
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,6 +54,8 @@ class StoryViewController: UIViewController {
     @IBAction func onBackButton(sender: AnyObject) {
         self.navigationController!.popViewControllerAnimated(true)
 }
+    @IBAction func onCommentButton(sender: AnyObject) {
+    commentTextField.becomeFirstResponder()}
     
     @IBAction func cancelStory(sender: AnyObject) {
     dismissViewControllerAnimated(true, completion: nil)
