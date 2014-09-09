@@ -8,8 +8,6 @@ STATUS:
 
 Looks like everything works *except* commenting on the Thrillist story.
 
-Also need to get the Messages controller to hop.
-
 
 HOURS WORKED:
 
