@@ -6,7 +6,7 @@ New and Improved!
 
 STATUS: 
 
-Looks like everything works *except* commenting on the Thrillist story.
+Looks like everything works *except* animating view on keyboard up.
 
 
 HOURS WORKED:
@@ -16,9 +16,9 @@ HOURS WORKED:
 
 NOTES:
 
-Struggled with scrolling for way too long. Had a few friends walk me through the steps. Concepts now a bit clearer to me...hopefully will continue to clarify as I work more
+Struggled with scrolling for way too long. Had a few friends walk me through the steps. Concepts now a bit clearer to me…once basics groked, felt much easier. Hopefully will continue to clarify as I work more
 
 
 WALKTHROUGH:
 
-facebook-dress-rehearsal.gif
+facebook-final.gif

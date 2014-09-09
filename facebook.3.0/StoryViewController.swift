@@ -28,13 +28,6 @@ class StoryViewController: UIViewController {
 
         SampleLikeButton.selected = !SampleLikeButton.selected
 
-        func keyboardWillShow(notification: NSNotification!) {
-            
-        }
-        
-        func keyboardWillHide(notification: NSNotification!) {
-            
-        }
 }
     override func viewDidLoad() {
         super.viewDidLoad()
