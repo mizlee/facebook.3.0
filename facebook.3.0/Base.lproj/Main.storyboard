@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4nD-Uh-hjs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7HM-zv-WMi">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Messages View Controller-->
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-791" y="470"/>
+            <point key="canvasLocation" x="1753" y="438"/>
         </scene>
         <!--Requests View Controller-->
         <scene sceneID="DS8-qK-wX9">
@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mBV-hF-fY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1187" y="470"/>
+            <point key="canvasLocation" x="1357" y="438"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="aeh-7p-eaw">
@@ -90,12 +90,12 @@
                                 <rect key="frame" x="0.0" y="110" width="320" height="458"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_feed" id="g7u-fD-D44">
+                                    <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_feed-1" id="g7u-fD-D44">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1025"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="02m-uO-zd0">
-                                        <rect key="frame" x="0.0" y="219" width="320" height="184"/>
+                                        <rect key="frame" x="-8" y="359" width="320" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -104,6 +104,46 @@
                                             <segue destination="3En-LK-aMZ" kind="push" id="nju-i6-mQn"/>
                                         </connections>
                                     </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0ZE-7l-WA5">
+                                        <rect key="frame" x="189" y="83" width="108" height="87"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Si5-rh-2MC" appends="YES" id="ljW-0N-oYd"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d76-06-9OX">
+                                        <rect key="frame" x="31" y="272" width="108" height="87"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="hOA-fi-2KQ" appends="YES" id="6d4-yH-PfQ"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XIP-lZ-7gL">
+                                        <rect key="frame" x="189" y="196" width="99" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="KVn-Yh-6ee" appends="YES" id="Abq-wZ-uKQ"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="y9P-8Z-FZm">
+                                        <rect key="frame" x="189" y="298" width="108" height="87"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="45q-rV-Qe3" appends="YES" id="xGg-1a-k7K"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yuR-I9-azO">
+                                        <rect key="frame" x="0.0" y="83" width="151" height="158"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="D6U-9V-gfw" appends="YES" id="t61-oz-7Rw"/>
+                                        </connections>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ccS-Jc-8d1">
@@ -150,8 +190,70 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yFu-LB-FnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="D6U-9V-gfw" userLabel="image one tap recognizer">
+                    <connections>
+                        <action selector="onTapImage1:" destination="7HM-zv-WMi" id="aSb-S4-jVB"/>
+                        <segue destination="UWA-JQ-MvN" kind="custom" identifier="toPhoto1" id="Jx4-cO-d7P"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Si5-rh-2MC" userLabel="image two tap recognizer"/>
+                <tapGestureRecognizer id="hOA-fi-2KQ" userLabel="image three tap recognizer"/>
+                <tapGestureRecognizer id="KVn-Yh-6ee" userLabel="image 4 tap recognizer"/>
+                <tapGestureRecognizer id="45q-rV-Qe3" userLabel="image 5 tap recognizer"/>
             </objects>
             <point key="canvasLocation" x="-1591" y="470"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="Wib-rm-GDf">
+            <objects>
+                <viewController id="UWA-JQ-MvN" customClass="PhotoViewController" customModule="facebook_3_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nYc-fi-jRw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HIU-uh-qDA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding1" id="9ne-Tm-oAv">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="480"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doneButton" id="sHU-XX-9lO">
+                                <rect key="frame" x="267" y="3" width="51" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mXU-HY-AM5">
+                                <rect key="frame" x="260" y="4" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onDoneButton:" destination="UWA-JQ-MvN" eventType="touchUpInside" id="twa-7t-CEj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_actions" id="cNb-hc-UZz">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="actionTools" destination="cNb-hc-UZz" id="zTl-zN-Siw"/>
+                        <outlet property="doneButton" destination="mXU-HY-AM5" id="fJ8-ha-XbB"/>
+                        <outlet property="doneImage" destination="sHU-XX-9lO" id="Zcu-by-C8X"/>
+                        <outlet property="imageOne" destination="9ne-Tm-oAv" id="Jzm-0W-f4P"/>
+                        <outlet property="scrollView" destination="HIU-uh-qDA" id="ilF-9J-ysM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mub-fh-zG2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1117" y="452"/>
         </scene>
         <!--Story View Controller-->
         <scene sceneID="z9k-U4-HWp">
@@ -379,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gqp-bb-MFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-381" y="470"/>
+            <point key="canvasLocation" x="2163" y="438"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="VYz-yX-kIf">
@@ -414,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TZZ-jf-SAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37" y="470"/>
+            <point key="canvasLocation" x="2581" y="438"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="S7c-qd-j3x">
@@ -437,6 +539,92 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSr-MH-I7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-589" y="-1142"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="oFE-SS-ZLl">
+            <objects>
+                <viewController id="bMJ-5x-OPu" customClass="LoginViewController" customModule="facebook_3_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dsn-9S-DOZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" id="ZJm-Bj-LTS">
+                                <rect key="frame" x="78" y="70" width="174" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.22745099663734436" green="0.35294118523597717" blue="0.58823531866073608" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="form_bg" id="Don-Gf-ZEf">
+                                <rect key="frame" x="18" y="183" width="295" height="95"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email or phone number" minimumFontSize="17" clearButtonMode="whileEditing" id="w2h-xa-vHP">
+                                <rect key="frame" x="29" y="195" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" id="xMB-rE-WhM">
+                                <rect key="frame" x="29" y="238" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="eSW-bi-pis">
+                                <rect key="frame" x="16" y="295" width="293" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="login_button_enabled"/>
+                                <state key="selected" image="logging_in_button"/>
+                                <state key="highlighted" image="logging_in_button"/>
+                                <connections>
+                                    <action selector="onbuttonSegue:" destination="bMJ-5x-OPu" eventType="touchUpInside" id="tVN-jN-jkz"/>
+                                    <action selector="onloginButton:" destination="bMJ-5x-OPu" eventType="touchUpInside" id="ME9-Dh-K1e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up for Facebook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ixY-3l-gtz">
+                                <rect key="frame" x="77" y="463" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Ns-1j-mmt">
+                                <rect key="frame" x="77" y="492" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="oKR-CN-r8j">
+                                <rect key="frame" x="264" y="310" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Pjt-qo-oS8" appends="YES" id="WHD-3G-4Jh"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="w2h-xa-vHP" id="2eA-b1-VKu"/>
+                        <outlet property="loadingView" destination="oKR-CN-r8j" id="LJW-ML-xem"/>
+                        <outlet property="loginButton" destination="eSW-bi-pis" id="9qD-hu-Run"/>
+                        <outlet property="passwordField" destination="xMB-rE-WhM" id="xiK-K3-ckZ"/>
+                        <outlet property="tapListener" destination="Pjt-qo-oS8" id="E1S-1O-M9K"/>
+                        <segue destination="4nD-Uh-hjs" kind="modal" identifier="loginSegue" modalTransitionStyle="crossDissolve" id="KKs-al-fVi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bk6-6P-kOb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Pjt-qo-oS8">
+                    <connections>
+                        <action selector="onTap:" destination="bMJ-5x-OPu" id="KxQ-6g-KsP"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-1007" y="-1142"/>
         </scene>
         <!--News Feed-->
         <scene sceneID="W6X-pe-AZl">
@@ -474,7 +662,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PbH-E1-BrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1187" y="-247"/>
+            <point key="canvasLocation" x="1357" y="-279"/>
         </scene>
         <!--Messenger-->
         <scene sceneID="Cxv-B7-E4D">
@@ -493,7 +681,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLv-6E-fkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-791" y="-247"/>
+            <point key="canvasLocation" x="1753" y="-279"/>
         </scene>
         <!--Notifications-->
         <scene sceneID="UBb-Ga-DY1">
@@ -512,7 +700,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WHg-hs-Xhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-381" y="-247"/>
+            <point key="canvasLocation" x="2163" y="-279"/>
         </scene>
         <!--More-->
         <scene sceneID="zPX-0Z-EHg">
@@ -531,7 +719,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zr8-N9-mPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37" y="-247"/>
+            <point key="canvasLocation" x="2581" y="-279"/>
         </scene>
     </scenes>
     <resources>
@@ -540,10 +728,15 @@
         <image name="create_checkin" width="320" height="568"/>
         <image name="create_photo" width="320" height="568"/>
         <image name="create_status" width="320" height="568"/>
+        <image name="doneButton" width="51" height="27"/>
         <image name="feed_tab" width="27" height="27"/>
-        <image name="home_feed" width="320" height="1025"/>
+        <image name="form_bg" width="295" height="95"/>
+        <image name="home_feed-1" width="320" height="1438"/>
         <image name="like_btn" width="17" height="40"/>
         <image name="like_btn_selected" width="17" height="40"/>
+        <image name="logging_in_button" width="293" height="52"/>
+        <image name="login_button_enabled" width="293" height="52"/>
+        <image name="logo" width="174" height="43"/>
         <image name="messages" width="320" height="460"/>
         <image name="messages_tab" width="27" height="27"/>
         <image name="more_tab" width="27" height="27"/>
@@ -552,16 +745,15 @@
         <image name="notifications" width="320" height="818"/>
         <image name="notifications_tab" width="27" height="27"/>
         <image name="people" width="320" height="1006"/>
+        <image name="photo_actions" width="320" height="44"/>
         <image name="requests_tab" width="27" height="27"/>
         <image name="settings" width="320" height="1800"/>
         <image name="thrillist_detail" width="320" height="1203"/>
+        <image name="wedding1" width="320" height="480"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4">
-            <size key="portraitSize" width="320" height="568"/>
-            <size key="landscapeSize" width="568" height="320"/>
-        </simulatedScreenMetrics>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>

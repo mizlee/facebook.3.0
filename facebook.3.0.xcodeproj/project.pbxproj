@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB9702D119DA297900CA61A7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9702D019DA297900CA61A7 /* PhotoViewController.swift */; };
 		BBA0313919BE37E500671E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0313819BE37E500671E8C /* AppDelegate.swift */; };
 		BBA0313B19BE37E500671E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0313A19BE37E500671E8C /* ViewController.swift */; };
 		BBA0313E19BE37E500671E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA0313C19BE37E500671E8C /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		BBA0316319BE4D4500671E8C /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0316219BE4D4500671E8C /* CreatePhotoViewController.swift */; };
 		BBA0316519BE4DC800671E8C /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0316419BE4DC800671E8C /* CreateCheckinViewController.swift */; };
 		BBA0316719BE4FC700671E8C /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0316619BE4FC700671E8C /* StoryViewController.swift */; };
+		BBC908AF19C0F4DA006E0BD2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC908AE19C0F4DA006E0BD2 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB9702D019DA297900CA61A7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		BBA0313319BE37E500671E8C /* facebook.3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebook.3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA0313719BE37E500671E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA0313819BE37E500671E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		BBA0316219BE4D4500671E8C /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
 		BBA0316419BE4DC800671E8C /* CreateCheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckinViewController.swift; sourceTree = "<group>"; };
 		BBA0316619BE4FC700671E8C /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		BBC908AE19C0F4DA006E0BD2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				BBA0316219BE4D4500671E8C /* CreatePhotoViewController.swift */,
 				BBA0316419BE4DC800671E8C /* CreateCheckinViewController.swift */,
 				BBA0316619BE4FC700671E8C /* StoryViewController.swift */,
+				BBC908AE19C0F4DA006E0BD2 /* LoginViewController.swift */,
+				BB9702D019DA297900CA61A7 /* PhotoViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC908AF19C0F4DA006E0BD2 /* LoginViewController.swift in Sources */,
 				BBA0315B19BE40A600671E8C /* MessagesViewController.swift in Sources */,
 				BBA0313B19BE37E500671E8C /* ViewController.swift in Sources */,
 				BBA0316119BE4A6700671E8C /* CreateUpdateViewController.swift in Sources */,
@@ -254,6 +261,7 @@
 				BBA0316719BE4FC700671E8C /* StoryViewController.swift in Sources */,
 				BBA0315819BE3E6400671E8C /* RequestsViewController.swift in Sources */,
 				BBA0313919BE37E500671E8C /* AppDelegate.swift in Sources */,
+				BB9702D119DA297900CA61A7 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +447,7 @@
 				BBA0315119BE37E500671E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBA0315219BE37E500671E8C /* Build configuration list for PBXNativeTarget "facebook.3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +456,7 @@
 				BBA0315419BE37E500671E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
